@@ -51,7 +51,7 @@ $(document).ready(function() {
           arrows: false,
           autoplay: true,
           autoplaySpeed: 4000,
-          speed: 1200,
+          speed: 5000,
           slidesToShow: 1,
           slidesToScroll: 1,
           fade: true
@@ -64,7 +64,7 @@ $(document).ready(function() {
         arrows: true,
         autoplay: true,
         autoplaySpeed: 4000,
-        speed: 1200,
+        speed: 5000,
         slidesToShow: 1,
         slidesToScroll: 5,
         variableWidth: true
@@ -77,7 +77,7 @@ $(document).ready(function() {
         arrows: false,
         autoplay: true,
         autoplaySpeed: 4000,
-        speed: 1200,
+        speed: 5000,
         slidesToShow: 3,
         slidesToScroll: 3,
         responsive: [
