@@ -1905,9 +1905,9 @@ a:active {
 
 .thumb_1 .img_box {
     width: 105px;
-    height: 89px;
-    border-radius: 3px;
-    -webkit-border-radius: 3px;
+    height: 105px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
     overflow: hidden;
     position: relative;
     -webkit-transition-property: box-shadow;
