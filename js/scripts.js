@@ -6,18 +6,6 @@ function getAnimation() {
   });
 }
 
-function getSubMenuParams() {
-  if(bodyWidth > 1024) {
-    $(".sub_menu_2").each(function() {
-      parent = $(this).closest(".sub_menu");
-      topCoord = $(this).offset().top -  parent.offset().top;
-      $(this).css({
-        "top" : -1 * topCoord + "px"
-      });
-    });
-  }
-}
-
 function getWRapperParams() {
   $(".wrapper").css({
     "padding-top" : $("#headerSite").height() + "px"
@@ -44,7 +32,6 @@ $(window).load(function() {
 
 $(window).resize(function() {
   bodyWidth = w.innerWidth || e.clientWidth || g.clientWidth;
-  getSubMenuParams();
   getWrapperParams();
   getAnimation();
 });
@@ -55,8 +42,6 @@ $(document).scroll(function() {
 });
 
 $(document).ready(function() {
-
-  getSubMenuParams();
   getWrapperParams();
   getAnimation();
 
@@ -135,14 +120,14 @@ $(document).ready(function() {
     if(bodyWidth > 1024) {
       parent = $(this).closest(".sub_menu");
       parent.addClass("hoverHeight");
-      height = $(this).children(".sub_menu_2").height();
-      $(".sub_menu.hoverHeight").css({
-        "min-height" : height + "px"
-      });
       subMenu2 = $(this).children(".sub_menu_2");
       topCoord = subMenu2.offset().top -  parent.offset().top;
       subMenu2.css({
         "top" : -1 * topCoord + "px"
+      });
+      height = $(this).children(".sub_menu_2").height();
+      $(".sub_menu.hoverHeight").css({
+        "min-height" : height + "px"
       });
     }
   });
