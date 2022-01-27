@@ -34,6 +34,9 @@ $(window).resize(function() {
   bodyWidth = w.innerWidth || e.clientWidth || g.clientWidth;
   getWrapperParams();
   getAnimation();
+  if(bodyWidth >= 1024) {
+    $(".sub_menu_list > li").removeClass("active");
+  }
 });
 
 $(document).scroll(function() {
@@ -118,12 +121,15 @@ $(document).ready(function() {
   $(".sub_menu_list > li").mouseover(function() {
     if(bodyWidth > 1024) {
       parent = $(this).closest(".sub_menu");
-      parent.addClass("hoverHeight");
       subMenu2 = $(this).children(".sub_menu_2");
-      topCoord = subMenu2.offset().top -  parent.offset().top;
-      subMenu2.css({
-        "top" : -1 * topCoord + "px"
-      });
+      if(!parent.hasClass("hoverHeight")) {
+        topCoord = subMenu2.offset().top -  parent.offset().top;
+        subMenu2.css({
+          "top" : -1 * topCoord + "px",
+          "min-height" : parent.height() + "px"
+        });
+      }
+      parent.addClass("hoverHeight");
       height = $(this).children(".sub_menu_2").height();
       $(".sub_menu.hoverHeight").css({
         "min-height" : height + "px"
@@ -142,7 +148,8 @@ $(document).ready(function() {
       subMenu2 = $(this).children(".sub_menu_2");
       topCoord = subMenu2.offset().top -  parent.offset().top;
       $(".sub_menu_2").css({
-        "top" : 0
+        "top" : 0,
+        "min-height" : "auto"
       });
     }
   });
