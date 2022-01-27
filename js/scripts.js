@@ -27,7 +27,7 @@ g = d.getElementsByTagName('body')[0],
 bodyWidth = w.innerWidth || e.clientWidth || g.clientWidth;
 
 $(window).load(function() {
-
+  getAnimation();
 });
 
 $(window).resize(function() {
@@ -43,7 +43,6 @@ $(document).scroll(function() {
 
 $(document).ready(function() {
   getWrapperParams();
-  getAnimation();
 
   if( $(".promo_slider").length > 0 ) {
       $(".promo_slider").not(".slick-initialized").slick({
