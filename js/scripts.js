@@ -192,4 +192,33 @@ $(document).ready(function() {
     }
   });
 
+  // ----------------
+
+  $(".dropdown_title").on("click", function(e) {
+    e.preventDefault();
+    parent = $(this).closest(".dropdown");
+    if(!parent.hasClass("active")) {
+      if(parent.closest(".dropdown.active").length == 0) {
+        $(".dropdown").removeClass("active");
+      }
+      parent.addClass("active");
+    } else {
+      parent.removeClass("active");
+    }
+  });
+
+  $(this).keydown(function(eventObject){
+    if (eventObject.which == 27) {
+      $(".dropdown").removeClass("active");
+    }
+  });
+
+  $(document).mouseup(function(e) {
+    hide_element = $(".dropdown");
+    if (!hide_element.is(e.target)
+        && hide_element.has(e.target).length === 0) {
+        hide_element.removeClass("active");
+      }
+  });
+
 });
