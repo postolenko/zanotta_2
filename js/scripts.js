@@ -47,6 +47,10 @@ $(document).scroll(function() {
 $(document).ready(function() {
   getWrapperParams();
 
+  $(".scroll_y").mCustomScrollbar({
+    axis:"y"
+  });
+
   if( $(".promo_slider").length > 0 ) {
       $(".promo_slider").not(".slick-initialized").slick({
           dots: true,
@@ -226,6 +230,58 @@ $(document).ready(function() {
         && hide_element.has(e.target).length === 0) {
         hide_element.removeClass("active");
       }
+  });
+
+  $(".dropdown_content .list_2 li").on("click", function(e) {
+    e.preventDefault();
+    parent = $(this).closest(".dropdown");
+    parent.removeClass("active");
+  });
+
+  // --------------
+
+  
+  if( $(".thumb_3_slider").length > 0 ) {
+
+    $('.thumb_3_slider').on('init', function(){
+      activeSlideImgSrc = $(this).find(".slick-active img").attr("data-src");
+      parent = $(this).closest(".thumb_3_wrapp");
+      slickDots = parent.find(".slick-dots");
+      parent.find(".thumb_3_sl_dots").append(slickDots);
+      $(this).find(".slick-active img").attr("src", activeSlideImgSrc);
+    });
+
+    $('.thumb_3_slider').on('beforeChange', function(event, slick, currentSlide, nextSlide){
+      activeSlideImgSrc = $(this).find(".slick-slide[data-slick-index = '"+nextSlide+"'] img").attr("data-src");
+      $(this).find(".slick-slide[data-slick-index = '"+nextSlide+"'] img").attr("src", activeSlideImgSrc);
+    });
+
+    $(".thumb_3_slider").not(".slick-initialized").slick({
+        dots: true,
+        arrows: false,
+        autoplay: false,
+        fade: true,
+        autoplaySpeed: false,
+        speed: 1000,
+        slidesToShow: 1,
+        slidesToScroll: 1
+    });
+
+  }
+
+  // --------------
+
+  $(".date_thumbnail").bind({
+    mouseenter: function() {
+      mask = $(this).find(".date_thumbnail_mask");
+      textWrapp = $(this).find(".date_thumbnail_text");
+      textWrapp.slideDown(500);
+    },
+    mouseleave: function() {
+      mask = $(this).find(".date_thumbnail_mask");
+      textWrapp = $(this).find(".date_thumbnail_text");
+      textWrapp.slideUp(500);
+    }
   });
 
 });
