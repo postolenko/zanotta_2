@@ -3,3 +3,9 @@
 # http://postolenko.github.io/zanotta_2/contacts.html
 # http://postolenko.github.io/zanotta_2/map.html
 # http://postolenko.github.io/zanotta_2/history.html
+# http://postolenko.github.io/zanotta_2/support.html
+# http://postolenko.github.io/zanotta_2/sales_rules.html
+# http://postolenko.github.io/zanotta_2/payment.html
+# http://postolenko.github.io/zanotta_2/position.html
+# http://postolenko.github.io/zanotta_2/confidentiality.html
+# http://postolenko.github.io/zanotta_2/cookie_policy.html
