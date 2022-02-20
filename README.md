@@ -9,3 +9,7 @@
 # http://postolenko.github.io/zanotta_2/position.html
 # http://postolenko.github.io/zanotta_2/confidentiality.html
 # http://postolenko.github.io/zanotta_2/cookie_policy.html
+# http://postolenko.github.io/zanotta_2/faq.html
+# http://postolenko.github.io/zanotta_2/caring_furniture.html
+# http://postolenko.github.io/zanotta_2/returns.html
+# http://postolenko.github.io/zanotta_2/delivering.html

@@ -284,4 +284,28 @@ $(document).ready(function() {
     }
   });
 
+  // --------------
+
+  $(".dropdown_item").each(function() {
+      dr = $(this).find(".dropdown_item_content");
+    if($(this).hasClass("active")) {
+      dr.slideDown(300);
+    } else {
+      dr.css({"display" : "none"});
+    }
+  });
+
+  $(".dropdown_item_title").on("click", function(e) {
+    e.preventDefault();
+    parent = $(this).closest(".dropdown_item");
+    dr = parent.find(".dropdown_item_content");
+    if(dr.is(":hidden")) {
+      dr.slideDown(300);
+      parent.addClass("active");
+    } else {
+      dr.slideUp(300);
+      parent.removeClass("active");
+    }
+  });
+
 });
