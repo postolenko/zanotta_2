@@ -13,3 +13,5 @@
 # http://postolenko.github.io/zanotta_2/caring_furniture.html
 # http://postolenko.github.io/zanotta_2/returns.html
 # http://postolenko.github.io/zanotta_2/delivering.html
+# http://postolenko.github.io/zanotta_2/send_review.html
+# http://postolenko.github.io/zanotta_2/reviews.html

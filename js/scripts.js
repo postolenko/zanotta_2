@@ -308,4 +308,10 @@ $(document).ready(function() {
     }
   });
 
+  // -------------
+
+  if($('.rateit').length > 0) {
+    $('.rateit').rateit({max: 5});
+  }
+
 });
