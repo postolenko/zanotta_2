@@ -314,4 +314,79 @@ $(document).ready(function() {
     $('.rateit').rateit({max: 5});
   }
 
+  // -------------
+
+  if( $(".basket_item_slider").length > 0 ) {
+
+    $(".basket_item_slider").each(function() {
+      sliderName = $(this).attr("data-big-slider");
+      bigSlider = $(this);
+      miniatureSlider = $("[data-miniature-slider = '"+sliderName+"']");
+      $(this).not(".slick-initialized").slick({
+          dots: false,
+          arrows: false,
+          autoplay: false,
+          speed: 1000,
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          asNavFor: miniatureSlider,
+          fade: true
+      });
+
+      miniatureSlider.not(".slick-initialized").slick({
+          dots: false,
+          arrows: false,
+          autoplay: false,
+          autoplaySpeed: 4000,
+          speed: 1000,
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          variableWidth: true,
+          asNavFor: bigSlider,
+          focusOnSelect: true
+      });
+
+    });
+  }
+
+  // -----------
+
+ $(".count_box button").click(function(e) {
+    e.preventDefault();
+    parentBlock = $(this).closest(".count_box");
+    countInput = parentBlock.find(".count_num input");
+    countVal = countInput.val();
+    if(countVal == "") {
+        countVal = 1;
+    }
+    if( $(this).hasClass("minus_btn") && countVal > 1 ) {
+        countVal--;
+    } else if( $(this).hasClass("plus_btn")) {
+        countVal++;
+    }
+    countInput.val(countVal);
+  });
+
+ // ------------
+
+ $(".del_btn").on("click", function(e) {
+    e.preventDefault();
+    parent = $(this).closest(".basket_item_row");
+    parent.remove();
+ });
+
+ // ------------
+
+ $("[data-dropdown-link]").on("click", function(e) {
+    e.preventDefault();
+    dr = $("[data-dropdown = '"+$(this).attr("data-dropdown-link")+"']") ;
+    if(dr.is(":hidden")) {
+      dr.slideDown(300);
+    } else {
+      dr.slideUp(300);
+    }
+ });
+
+
+
 });

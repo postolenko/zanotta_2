@@ -17,3 +17,4 @@
 # http://postolenko.github.io/zanotta_2/reviews.html
 # http://postolenko.github.io/zanotta_2/return_processing.html
 # http://postolenko.github.io/zanotta_2/returning.html
+# http://postolenko.github.io/zanotta_2/basket.html
