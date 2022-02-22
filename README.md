@@ -15,3 +15,5 @@
 # http://postolenko.github.io/zanotta_2/delivering.html
 # http://postolenko.github.io/zanotta_2/send_review.html
 # http://postolenko.github.io/zanotta_2/reviews.html
+# http://postolenko.github.io/zanotta_2/return_processing.html
+# http://postolenko.github.io/zanotta_2/returning.html
