@@ -18,3 +18,8 @@
 # http://postolenko.github.io/zanotta_2/return_processing.html
 # http://postolenko.github.io/zanotta_2/returning.html
 # http://postolenko.github.io/zanotta_2/basket.html
+# http://postolenko.github.io/zanotta_2/card.html
+# http://postolenko.github.io/zanotta_2/materials.html
+# http://postolenko.github.io/zanotta_2/categoryes.html
+# http://postolenko.github.io/zanotta_2/subcategories.html
+# http://postolenko.github.io/zanotta_2/gallery.html
