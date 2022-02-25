@@ -525,4 +525,19 @@ $(document).ready(function() {
       },200);
     });
 
+    // ----------
+
+    if( $(".bonuce_slider").length > 0 ) {
+      $(".bonuce_slider").not(".slick-initialized").slick({
+          dots: true,
+          arrows: false,
+          autoplay: true,
+          autoplaySpeed: 4000,
+          speed: 1000,
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          fade: true
+      });
+    }
+
 });

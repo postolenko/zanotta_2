@@ -23,3 +23,6 @@
 # http://postolenko.github.io/zanotta_2/categoryes.html
 # http://postolenko.github.io/zanotta_2/subcategories.html
 # http://postolenko.github.io/zanotta_2/gallery.html
+# http://postolenko.github.io/zanotta_2/bonuce.html
+# http://postolenko.github.io/zanotta_2/password_reset.html
+# http://postolenko.github.io/zanotta_2/sales.html
