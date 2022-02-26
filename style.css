@@ -7832,11 +7832,361 @@ p.red {
 
 /*-- /My List Vishes --*/
 
+/*-- Add New Adress --*/
 
+.add_adress_form_wrapp {
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #BDBDBD;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    max-width: 1015px;
+    margin: 30px auto;
+}
 
+.add_adress_form {
+    padding: 31px 55px 32px 55px;
+    background: #F5F4F4;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+}
 
+.add_adres_item {
 
+}
 
+.add_adres_item h3 {
+    padding: 5px 0;
+    font-weight: 550;
+    font-size: 18px;
+    line-height: 125%;
+    color: #11405A;
+}
+
+.inputs_two_cols {
+    display: flex;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+}
+
+.inputs_two_cols > div:nth-child(odd) {
+    width: 50%;
+    padding: 9px 7px 9px 0;
+}
+
+.inputs_two_cols > div:nth-child(even) {
+    width: 50%;
+    padding: 9px 0 9px 7px;
+}
+
+.inputs_two_cols .input_wrapp {
+    margin: 0;
+}
+
+.add_adres_two_cols {
+    display: flex;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+}
+
+.add_adres_two_cols > div:nth-child(odd) {
+    width: 50%;
+    padding: 9px 7px 9px 0;
+}
+
+.add_adres_two_cols > div:nth-child(even) {
+    width: 50%;
+    padding: 9px 0 9px 7px;
+}
+
+.add_adres_two_cols .input_wrapp {
+    margin: 18px 0;
+}
+
+.add_adres_two_cols .input_wrapp:nth-child(1) {
+    margin-top: 8px;
+}
+
+.add_adress_pill {
+    width: 100%;
+    font-family: 'HelveticaNeueCyr Roman';
+    min-height: 40px;
+    font-weight: normal;
+    font-size: 18px;
+    color: #FFF;
+}
+
+.submit_wrapp_3 .add_adress_pill {
+    position: relative;
+    top: -2px;
+}
+
+/*-- /Add New Adress --*/
+
+/*-- Orders --*/
+
+.returning_table_2 .table_row .cell:nth-child(1) {
+    width: 15%;
+}
+
+.returning_table_2 .table_row .cell:nth-child(2) {
+    width: 13%;
+}
+
+.returning_table_2 .table_row .cell:nth-child(3) {
+    width: 16%;
+}
+
+.returning_table_2 .table_row .cell:nth-child(4) {
+    width: 14%;
+}
+
+.returning_table_2 .table_row .cell:nth-child(5) {
+    width: 16%;
+}
+
+.returning_table_2 .table_row .cell:nth-child(6) {
+    width: 10%;
+}
+
+.returning_table_2 .table_row .cell:nth-child(7) {
+    width: 16%;
+    text-align: right;
+    padding-right: 40px;
+}
+
+.link_4 {
+    display: inline-block;
+    vertical-align: top;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 20px;
+    color: #11405A;
+    -webkit-transition-property: border;
+    -webkit-transition-duration: .3s;
+    -webkit-transition-timing-function: ease;
+
+    -moz-transition-property: border;
+    -moz-transition-duration: .3s;
+    -moz-transition-timing-function: ease;
+
+    -ms-transition-property: border;
+    -ms-transition-duration: .3s;
+    -ms-transition-timing-function: ease;
+
+    -o-transition-property: border;
+    -o-transition-duration: .3s;
+    -o-transition-timing-function: ease;
+
+    transition-property: border;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+
+.link_4:link,
+.link_4:visited {
+    border-bottom: 1px solid #11405A;
+}
+
+.link_4:active,
+.link_4.active {
+    border-bottom: 1px solid transparent;
+}
+
+.link_4:hover {
+    border-bottom: 1px solid transparent;
+}
+
+.returning_table_2 .link_4 {
+    position: relative;
+    top: 8px;
+}
+
+/*-- /Orders --*/
+
+/*-- Order --*/
+
+.order_info {
+    display: flex;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.order_info > .left_col {
+    width: 53%;
+    padding: 10px 35px 10px 0;
+}
+
+.order_info > .right_col {
+    width: 47%;
+    padding: 10px 0 10px 35px;
+}
+
+.order_info h3 {
+    padding: 30px 0 2px 0;
+    font-weight: 550;
+    font-size: 18px;
+    line-height: 150%;
+    color: #11405A;
+}
+
+.order_info p {
+    padding: 2px 0;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 150%;
+    color: #11405A;  
+}
+
+/*-- /Order --*/
+
+/*-- City Delivering --*/
+
+.city_form_wrapp {
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #BDBDBD;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    max-width: 668px;
+    margin: 70px auto;
+    position: relative;
+}
+
+.city_form {
+    padding: 14px 23px 15px 23px;
+    background: #F5F4F4;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+}
+
+.city_form_title {
+    padding: 17px 0;
+    text-align: center;
+}
+
+.city_form_title h3 {
+    font-family: 'HelveticaNeueCyr Roman';
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #11405A;
+}
+
+.city_form_title h3 .up {
+    font-size: 18px;
+}
+
+.city_form_title h3 .city {
+    font-family: 'HelveticaNeueCyr';
+    font-size: 24px;
+    line-height: 24px;
+}
+
+.city_form_input {
+    display: flex;
+    display: -webkit-flex;
+    border: 1px solid #11405A;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    overflow: hidden;
+    margin: 20px 0;
+}
+
+.city_form_input .search_input {
+    display: block;
+    width: calc(100% - 80px);
+    height: 40px;
+    padding: 0 80px 0 18px;
+    background-color: transparent;
+    border: none;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 39px;
+    color: #11405A;
+}
+
+.reset_btn {
+    display: block;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(img/reset_btn.svg);
+    background-size: contain;
+}
+
+.search_btn {
+    display: block;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(img/search_btn.svg);
+    background-size: auto;
+}
+
+.cities_list {
+    display: flex;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+}
+
+.cities_list li {
+    width: 25%;
+    padding: 0 10px;
+    font-family: 'HelveticaNeueCyr Roman';
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    color: #11405A;
+}
+
+.cities_list li a {
+    font-family: 'HelveticaNeueCyr Roman';
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    color: #11405A;
+}
+
+.cities_list li a:hover {
+    text-decoration: underline;
+}
+
+.close_btn {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    background-image: url(img/close_popup.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.city_form_wrapp .close_btn {
+    position: absolute;
+    top: 13px;
+    right: 13px;
+    z-index: 2;
+}
+
+/*-- /City Delivering --*/
 
 
 

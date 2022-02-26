@@ -560,4 +560,10 @@ $(document).ready(function() {
       parent.remove();
     });
 
+    $(".city_form_input .reset_btn").on("click", function(e) {
+      e.preventDefault();
+      parent = $(this).closest(".city_form_input");
+      parent.find(".search_input").val("");
+    });
+
 });

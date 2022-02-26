@@ -29,3 +29,6 @@
 # http://postolenko.github.io/zanotta_2/registration.html
 # http://postolenko.github.io/zanotta_2/my_account.html
 # http://postolenko.github.io/zanotta_2/my_list_vishes.html
+# http://postolenko.github.io/zanotta_2/orders.html
+# http://postolenko.github.io/zanotta_2/order.html
+# http://postolenko.github.io/zanotta_2/city_delivering.html
