@@ -554,4 +554,10 @@ $(document).ready(function() {
       parent.remove();
     });
 
+    $(".vish_list_item .del_btn_2").on("click", function(e) {
+      e.preventDefault();
+      parent = $(this).closest(".vish_list_item");
+      parent.remove();
+    });
+
 });
