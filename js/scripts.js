@@ -540,4 +540,18 @@ $(document).ready(function() {
       });
     }
 
+    // ----------
+
+    if($("input.date").length > 0) {
+      new AirDatepicker('input.date');
+    }
+
+    // ----------
+
+    $(".good_thumb .del_btn_2").on("click", function(e) {
+      e.preventDefault();
+      parent = $(this).closest(".good_thumb");
+      parent.remove();
+    });
+
 });

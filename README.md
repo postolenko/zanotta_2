@@ -26,3 +26,6 @@
 # http://postolenko.github.io/zanotta_2/bonuce.html
 # http://postolenko.github.io/zanotta_2/password_reset.html
 # http://postolenko.github.io/zanotta_2/sales.html
+# http://postolenko.github.io/zanotta_2/registration.html
+# http://postolenko.github.io/zanotta_2/my_account.html
+# http://postolenko.github.io/zanotta_2/my_list_vishes.html
