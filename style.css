@@ -5412,7 +5412,8 @@ div.rateit_2.svg div.rateit-preset {
 
 .form_2_wrapp .arrow_send_btn {
     position: absolute;
-    top: 8px;
+    /*top: 8px;*/
+    top: 13px;
     right: 7px;
 }
 
@@ -7834,6 +7835,14 @@ p.red {
 
 /*-- Add New Adress --*/
 
+.add_adress_sect {
+    padding: 65px 0 30px 0;
+}
+
+.add_adress_sect .h2_wrapp_2 {
+    padding: 30px 0;
+}
+
 .add_adress_form_wrapp {
     padding: 10px;
     background: #fff;
@@ -7917,6 +7926,62 @@ p.red {
 .submit_wrapp_3 .add_adress_pill {
     position: relative;
     top: -2px;
+}
+
+.tel_input_wrapp:after {
+    display: block;
+    content: "";
+    width: 39px;
+    height: 39px;
+    background-image: url(img/dropdown_arrow_2.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    -webkit-transition-property: transform;
+    -webkit-transition-duration: .3s;
+    -webkit-transition-timing-function: ease;
+
+    -moz-transition-property: transform;
+    -moz-transition-duration: .3s;
+    -moz-transition-timing-function: ease;
+
+    -ms-transition-property: transform;
+    -ms-transition-duration: .3s;
+    -ms-transition-timing-function: ease;
+
+    -o-transition-property: transform;
+    -o-transition-duration: .3s;
+    -o-transition-timing-function: ease;
+
+    transition-property: transform;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+
+.dropdown.active .tel_input_wrapp:after {
+    transform: rotate(-180deg);
+    -webkit-transform: rotate(-180deg);
+}
+
+.tel_list_dropdowm {
+    width: 270px !important;
+    background: #FFF;
+    padding: 5px 15px 6px 15px;
+    box-shadow: 0 2px 2px rgb(0 0 0 / 25%);
+    -webkit-box-shadow: 0 2px 2px rgb(0 0 0 / 25%);
+    top: 100%;
+    left: 0;
+    transform: translate(0, 0);
+    -webkit-transform: translate(0, 0);
+}
+
+.tel_mask_list li {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 24px;
+    color: #11405A;
 }
 
 /*-- /Add New Adress --*/

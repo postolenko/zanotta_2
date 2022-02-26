@@ -566,4 +566,22 @@ $(document).ready(function() {
       parent.find(".search_input").val("");
     });
 
+    // -----------
+
+    if($("input.tel_input").length > 0) {
+      var im = new Inputmask("+380 (99)-999-99-99");
+      im.mask($("input.tel_input"));
+    }
+
+    $(document).on("click",".tel_mask_list li", function(e) {
+      e.preventDefault();
+      parent = $(this).closest(".tel_mask_list");
+      maskName = parent.attr("data-tel-mask-list");
+      maskTempl = $(this).attr("data-mask-templ");
+      var im = new Inputmask(maskTempl);
+      im.mask($("#"+maskName));
+      dr = parent.closest(".dropdown");
+      dr.removeClass("active");
+    });
+
 });
