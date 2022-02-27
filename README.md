@@ -33,3 +33,5 @@
 # http://postolenko.github.io/zanotta_2/order.html
 # http://postolenko.github.io/zanotta_2/city_delivering.html
 # http://postolenko.github.io/zanotta_2/add_new_adress.html
+# http://postolenko.github.io/zanotta_2/order_processing.html
+# http://postolenko.github.io/zanotta_2/ordering.html
