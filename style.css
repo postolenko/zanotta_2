@@ -202,6 +202,7 @@ body {
     -ms-flex-direction: column;
     min-height: 100%;
     min-height: 100vh;
+    overflow: hidden;
 }
 
 header {
@@ -544,6 +545,14 @@ select {
 }
 
 .novisible_767 {
+    display: block;
+}
+
+.visible_600 {
+    display: none;
+}
+
+.novisible_600 {
     display: block;
 }
 
@@ -1533,10 +1542,6 @@ p.p_2 {
     left: 50%;
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);  
-}
-
-.acc_thumb_2_content {
-
 }
 
 .acc_thumb_2_content h3 {
@@ -3719,6 +3724,17 @@ p.price_3 {
     left: 0;
 }
 
+.back_link_resp {
+    display: block;
+    width: 60px;
+    height: 60px;
+    background-color: #fff;
+    border: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(img/back_arrow_resp.svg);
+}
+
 .filters_wrapp_border {
     border-bottom: 1px solid #C5C5C5;
 }
@@ -3770,7 +3786,7 @@ p.price_3 {
 .filter_dropdowm .dropdown_content {
     width: 170px !important;
     background: #FFF;
-    padding: 5px 15px 6px 15px;
+    padding: 5px 15px 6x 15px;
     box-shadow: 0 2px 2px rgb(0 0 0 / 25%);
     -webkit-box-shadow: 0 2px 2px rgb(0 0 0 / 25%);
 }
@@ -3778,6 +3794,48 @@ p.price_3 {
 .filter_dropdowm .dropdown_content {
     left: -10px;
     transform: none;
+}
+
+.range_slider_wrapp {
+    padding: 10px 0 10px 0;
+}
+
+.range_slider_vals p {
+    text-align: center;
+    font-weight: 550;
+    font-size: 14px;
+    line-height: 176.5%;
+    text-transform: uppercase;
+    color: #E16752;
+}
+
+.price_sl.noUi-horizontal .noUi-handle {
+    width: 9px;
+    height: 9px;
+    right: -9px;
+    top: -3px;
+    border: none;
+    border-radius: 0;
+    background: #E16752;
+    cursor: default;
+    box-shadow: none;
+}
+
+.price_sl.noUi-horizontal {
+    height: 3px;
+}
+
+.price_sl.noUi-target {
+    margin: 4px 0;
+    background: #F2F1F0;
+    border-radius: 0;
+    border: none;
+    box-shadow: none;
+}
+
+.price_sl .noUi-handle:after,
+.price_sl .noUi-handle:before {
+    display: none;
 }
 
 .list_2 li {
@@ -4459,6 +4517,8 @@ p.price_3 {
 .date_thumbnails {
     display: flex;
     display: -webkit-flex;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
     margin: 12px -10px;
 }
 
@@ -4539,7 +4599,7 @@ p.price_3 {
 p.year {
     font-family: "AndrijScript Cyrillic";
     font-weight: bold;
-    font-size: 96px;
+    font-size: 96px !important;
     line-height: 1;
     text-align: center;
     color: #FFF;
@@ -4783,6 +4843,7 @@ p.year {
     text-align: center;
     padding: 13px 15px 13px 15px;
     min-width: 151px;
+    height: 100%;
     background: transparent;
     border-radius: 1px;
     -webkit-border-radius: 1px;
@@ -5843,7 +5904,7 @@ div.rateit_2.svg div.rateit-preset {
 .basket_miniature {
     width: 79px;
     height: 79px;
-    margin: 0 10px;
+    margin: 5px 10px;
     cursor: pointer;
     border: 1px solid #CACACA;
     border-radius: 5px;
@@ -5981,21 +6042,18 @@ div.rateit_2.svg div.rateit-preset {
 }
 
 .basket_two_cols > div:nth-child(1) {
-    display: flex;
-    display: -webkit-flex;
     width: 50%;
     padding: 10px 10px 10px 0;
 }
 
 .basket_two_cols > div:nth-child(2) {
-    display: flex;
-    display: -webkit-flex;
     width: 50%;
     padding: 10px 0 10px 10px;
 }
 
 .grey_box {
     width: 100%;
+    min-height: 171px;
     background: #F5F4F4;
     border-radius: 1px;
     -webkit-border-radius: 1px;
@@ -6142,8 +6200,8 @@ div.rateit_2.svg div.rateit-preset {
 .icons_list {
     display: flex;
     display: -webkit-flex;
-    justify-content: space-between;
-    -webkit-justify-content: space-between;
+    justify-content: center;
+    -webkit-justify-content: center;
     align-items: center;
     -webkit-align-items: center;
     flex-wrap: wrap;
@@ -6760,6 +6818,7 @@ div.rateit_2.svg div.rateit-preset {
     -webkit-align-items: center;
     justify-content: center;
     -webkit-justify-content: center;
+    height: 100%;
     text-align: center;
     padding: 13px 15px 13px 15px;
     min-width: 151px;
@@ -6809,11 +6868,12 @@ div.rateit_2.svg div.rateit-preset {
 .tabs_content {
     background: #FFF;
     border: 1px solid #C4C4C4;
+    position: relative;
 }
 
 .tab_conent {
     display: none;
-    padding: 20px 40px 16px 40px;
+    padding: 46px 40px 45px 40px;
 }
 
 .tab_conent p {
@@ -6821,6 +6881,13 @@ div.rateit_2.svg div.rateit-preset {
     font-size: 18px;
     line-height: 125%;
     color: #11405A;
+}
+
+.tabs_content > input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
 }
 
 .tabs_content > input:checked + .tab_conent {
@@ -10047,8 +10114,8 @@ body.fixed {
 
 .gallery_popup_two_cols > .right_col {
     width: calc(100% - 458px);
-    padding-top: 39px;
-    padding-left: 37px;
+    padding: 39px 0 20px 37px;
+    position: relative;
 }
 
 .gallery_popup_two_cols > .left_col > img {
@@ -10062,6 +10129,12 @@ body.fixed {
     left: 50%;
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
+}
+
+.gallery_popup_two_cols > .right_col .hearth {
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
 
 .gallery_popup_descript h3 {

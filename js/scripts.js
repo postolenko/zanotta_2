@@ -616,7 +616,25 @@ $(document).ready(function() {
 
     // -------------
 
-    
+    var skipSlider = document.getElementById('price_sl');
+
+    noUiSlider.create(skipSlider, {
+        range: {
+            'min': 0,
+            'max': 5000
+        },
+        start: [2000, 4000]
+    });
+
+    var skipValues = [
+        document.getElementById('lower_price'),
+        document.getElementById('top_price')
+    ];
+
+    skipSlider.noUiSlider.on('update', function (values, handle) {
+        $("#lower_price").text(parseInt(values[0]));
+        $("#top_price").text(parseInt(values[1]));
+    });
 
 
 });

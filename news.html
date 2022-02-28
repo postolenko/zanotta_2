@@ -1179,8 +1179,13 @@
 							</div>
 						</div>
 						<div class="right_col">
-							<div class="align_right">
-								<a href="#" class="back_link"><span>Вернуться назал</span></a>
+							<div class="novisible_767">
+								<div class="align_right">
+									<a href="#" class="back_link"><span>Вернуться назал</span></a>
+								</div>
+							</div>
+							<div class="visible_767">
+								<a href="#" class="back_link_resp"></a>
 							</div>
 						</div>
 					</div>
@@ -1279,7 +1284,7 @@
 								</div>
 							</div>
 						</div>
-						<div>
+						<div class="more_filter_dr_wrapp">
 							<a href="#" class="black_link more_filter_dr" data-dropdown-link="more_filter_dr">Все фильтры</a>
 						</div>
 					</div>
@@ -1351,12 +1356,12 @@
 										<p>Цена</p>
 									</div>
 									<div class="dropdown_content">
-										<ul class="list_2">
-											<li>Опция 1</li>
-											<li>Опция 2</li>
-											<li>Опция 3</li>
-											<li>Опция 4</li>
-										</ul>
+										<div class="range_slider_wrapp">
+											<div class="range_slider_vals">
+												<p>€ <span id="lower_price"></span> - € <span id="top_price"></span></p>
+											</div>
+											<div class="price_sl" id="price_sl"></div>
+										</div>
 									</div>
 								</div>
 							</div>
@@ -1378,7 +1383,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="two_cols">
+				<div class="two_cols resp_white">
 					<div class="left_col">
 						<div class="sort_wrapp">
 							<div>
@@ -1999,10 +2004,12 @@
 	<link rel="stylesheet" type="text/css" href="slick/slick.css">
 	<link rel="stylesheet" type="text/css" href="vendors/css/jquery.mCustomScrollbar.css">
 	<link rel="stylesheet" type="text/css" href="vendors/css/jquery.fancybox.css">
+	<link rel="stylesheet" type="text/css" href="vendors/css/nouislider.min.css">
 	<script src="vendors/js/jquery.js"></script>
 	<script src="slick/slick.js"></script>
 	<script src="vendors/js/jquery.mCustomScrollbar.concat.min.js"></script>
 	<script src="vendors/js/jquery.fancybox.js"></script>
+	<script src="vendors/js/nouislider.min.js"></script>
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA0-5AxzvKjbwCMVCov_cwLTwvtlyEHAHs&callback=initMap&v=weekly" async></script>
 	<script src="js/scripts.js"></script>
 	<script src="js/map.js"></script>
