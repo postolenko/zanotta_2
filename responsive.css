@@ -1257,6 +1257,22 @@ h2 {
 
 /*-- /Reviews --*/
 
+/*-- Add New Adress --*/
+
+.add_adress_sect {
+    padding: 30px 0;
+}
+
+.add_adress_sect .h2_wrapp_2 {
+    padding: 15px 0;
+}
+
+.add_adress_form {
+    padding: 31px 15px 32px 15px;
+}
+
+/*-- /Add New Adress --*/
+
 /*-- Footer --*/
 
 .footer_row_2 {
@@ -1755,6 +1771,30 @@ h2 {
 }
 
 /*-- /Reviews --*/
+
+/*-- Add New Adress --*/
+
+.inputs_two_cols > div:nth-child(odd) {
+    width: 100%;
+    padding: 9px 0;
+}
+
+.inputs_two_cols > div:nth-child(even) {
+    width: 100%;
+    padding: 9px 0;
+}
+
+.add_adres_two_cols > div:nth-child(odd) {
+    width: 100%;
+    padding: 9px 0 0 0;
+}
+
+.add_adres_two_cols > div:nth-child(even) {
+    width: 100%;
+    padding: 0;
+}
+
+/*-- /Add New Adress --*/
 
 /*-- Footer --*/
 
