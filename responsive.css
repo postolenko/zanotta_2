@@ -232,6 +232,19 @@
 
 /*-- /Reviews --*/
 
+/*-- Bonuce --*/
+
+.bonuce_thumbs {
+	justify-content: center;
+	-webkit-justify-content: center;
+}
+
+.bonuce_thumb {
+    width: calc(33.33% - 12px);
+}
+
+/*-- /Bonuce --*/
+
 /*-- Footer --*/
 
 	.footer_row_2 > .left {
@@ -550,6 +563,44 @@
 
 /*-- /Basket --*/
 
+/*-- Bonuce --*/
+
+.bonuce_slider .slick-dots {
+    bottom: 53px;
+}
+
+.bonuce_slider .slide {
+    height: 317px;
+}
+
+.bonuce_slide_descript h2 {
+    font-size: 64px;
+    line-height: 70px;
+}
+
+.bonuce_slide_descript h3 {
+    padding: 3px 0;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.bonuce_slide_descript p {
+    padding: 13px 0 10px 0;
+    font-size: 18px;
+    line-height: 19px;
+}
+
+.bonuce_descript p {
+    font-size: 18px;
+}
+
+.bonuce_title h2 {
+    font-size: 30px;
+    line-height: 42px;
+}
+
+/*-- /Bonuce --*/
+
 /*-- Footer --*/
 
 .footer_row_2 > .left {
@@ -851,6 +902,14 @@ h2 {
 }
 
 /*-- /Basket --*/
+
+/*-- Bonuce --*/
+
+.bonuce_thumb {
+    width: calc(50% - 12px);
+}
+
+/*-- /Bonuce --*/
 
 
 }
@@ -1272,6 +1331,36 @@ h2 {
 }
 
 /*-- /Add New Adress --*/
+
+/*-- Bonuce --*/
+
+.bonuce_thumbs {
+    margin: 28px 0 20px 0;
+}
+
+.bonuce_thumb {
+    width: 100%;
+}
+
+.article_2_2 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.article_2 ol {
+    padding: 3px 0 10px 0;
+}
+
+.article_2 ol li {
+    padding: 6px 0 6px 18px;
+    font-size: 14px;
+}
+
+.article_2 ol li:before {
+    top: 11px;
+}
+
+/*-- /Bonuce --*/
 
 /*-- Footer --*/
 
@@ -1795,6 +1884,27 @@ h2 {
 }
 
 /*-- /Add New Adress --*/
+
+/*-- Bonuce --*/
+
+.bonuce_slider {
+    margin: 12px -15px 0 -15px;
+}
+
+.bonuce_descript p {
+    font-size: 14px;
+}
+
+.bonuce_title {
+    padding: 20px 0;
+}
+
+.bonuce_title h2 {
+    font-size: 24px;
+    line-height: 34px;
+}
+
+/*-- /Bonuce --*/
 
 /*-- Footer --*/
 
