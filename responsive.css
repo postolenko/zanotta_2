@@ -245,6 +245,66 @@
 
 /*-- /Bonuce --*/
 
+/*-- Contacts --*/
+
+.contacts_templ > .left_col {
+    width: 100%;
+    padding: 10px 0;
+}
+
+.contacts_templ > .right_col {
+    width: 100%;
+    padding: 10px 0;
+}
+
+.contacts_text_wrapp p {
+	font-size: 14px;
+}
+
+.contacts_text_wrapp a {
+    font-size: 14px;
+}
+
+.contacts_text_wrapp h3 {
+    font-size: 14px;
+}
+
+/*-- /Contacts --*/
+
+/*-- Materials --*/
+
+.single_article {
+    padding: 15px 0 15px 0;
+}
+
+.thumbs_3_2_wrapp .thumb_3_sl_dots {
+    top: 320px;
+}
+
+.thumb_3_3 {
+    min-height: 589px;
+}
+
+/*-- /Materials --*/
+
+/*-- Returning --*/
+
+.returning_table .table_row .cell:nth-child(5) {
+    width: 17%;
+}
+
+.returning_table .table_row .cell:nth-child(6) {
+    width: 24%;
+}
+
+.table_pill {
+	padding-left: 10px;
+    padding-right: 10px;
+	font-size: 14px !important;
+}
+
+/*-- /Returning --*/
+
 /*-- Footer --*/
 
 	.footer_row_2 > .left {
@@ -283,6 +343,57 @@
 }
 
 /*-- /Basket --*/
+
+/*-- My List Vishes --*/
+
+.vish_list_item {
+    padding: 20px 0 20px 0;
+}
+
+.vish_list_item > div:nth-child(1) {
+    width: 100%;
+    padding-left: 0;
+}
+
+.vish_list_item > div:nth-child(2) {
+    width: 140px;
+    padding-top: 5px;
+}
+
+.vish_list_item > div:nth-child(3) {
+    width: 120px;
+    padding-top: 5px;
+}
+
+.vish_list_item > div:nth-child(4) {
+    width: 120px;
+    padding-top: 5px;
+}
+
+.vish_list_item > div:nth-child(5) {
+    width: 240px;
+    padding-right: 0;
+    padding-top: 0;
+}
+
+.good_thumb_pill {
+    font-size: 14px !important;
+}
+
+/*-- /My List Vishes --*/
+
+/*-- Order Processing --*/
+
+.blue_tags_inlines > div {
+	min-width: 220px;
+    flex: none;
+}
+
+.tree_cols_2 > div {
+    padding: 10px;
+}
+
+/*-- /Order Processing --*/
 
 }
 
@@ -601,6 +712,45 @@
 
 /*-- /Bonuce --*/
 
+/*-- Sales --*/
+
+.sales_item > div:nth-child(1) {
+    width: 440px;
+}
+
+.sales_item > div:nth-child(2) {
+    width: calc(100% - 440px);
+    padding: 33px 0 24px 20px;
+}
+
+.sales_item_bg_descript h3 {
+    font-size: 42px;
+    line-height: 47px;
+}
+
+.sales_item_bg_descript p {
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.sales_item h3 {
+    font-size: 29px;
+}
+
+.sales_item p {
+    font-size: 16px;
+}
+
+.sales_item ol li {
+    font-size: 16px;
+}
+
+.sales_item ol {
+    padding: 14px 0;
+}
+
+/*-- /Sales --*/
+
 /*-- Footer --*/
 
 .footer_row_2 > .left {
@@ -911,10 +1061,89 @@ h2 {
 
 /*-- /Bonuce --*/
 
+/*-- Order --*/
+
+.return_processing_table .table_row .cell:nth-child(1) {
+    padding-left: 20px;
+}
+
+.return_processing_table h3 {
+    font-size: 14px;
+    line-height: 23px;
+}
+
+.return_processing_table p {
+    font-size: 14px;
+    line-height: 23px;
+}
+
+/*-- /Order --*/
+
+/*-- Order Processing --*/
+
+.tree_cols_2 h3 {
+    font-size: 18px;
+}
+
+.tree_cols_2 p a {
+    font-size: 18px;
+}
+
+/*-- /Order Processing --*/
+
+/*-- Orders --*/
+
+.returning_sect_inner h3 {
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.returning_sect_inner p {
+    padding: 5px 0;
+    font-size: 18px;
+}
+
+.returning_table h3 {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.returning_table p {
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.link_4 {
+    font-size: 14px;
+    line-height: 18px;
+}
+
+/*-- /Orders --*/
+
+/*-- Sales --*/
+
+.sales_item {
+    margin: 25px 0 25px 0;
+}
+
+.sales_item > div:nth-child(1) {
+    width: 350px;
+}
+
+.sales_item > div:nth-child(2) {
+    width: calc(100% - 350px);
+}
+
+/*-- /Sales --*/
 
 }
 
 @media only screen and (max-width: 767px) {
+
+h3 {
+    font-size: 16px;
+    line-height: 22px;
+}
 
 .row {
     padding: 0 15px;
@@ -1362,6 +1591,139 @@ h2 {
 
 /*-- /Bonuce --*/
 
+/*-- City Delivering --*/
+
+.city_form_title {
+    padding: 5px 0;
+}
+
+.cities_list li {
+    width: 50%;
+    font-size: 14px;
+}
+
+/*-- /City Delivering --*/
+
+/*-- Materials --*/
+
+.single_article p {
+    font-size: 14px;
+}
+
+.video_box_2_descript {
+    padding: 20px 15px 15px 15px;
+}
+
+.video_box_2_descript h3 {
+    padding: 3px 0;
+    font-size: 25px;
+    line-height: 35px;
+}
+
+/*-- /Materials --*/
+
+/*-- My List Vishes --*/
+
+.vish_list_sect {
+    padding: 24px 0 10px 0;
+}
+
+.vish_list_sect .h2_wrapp_2 {
+    padding: 20px 0 18px 0;
+}
+
+/*-- /My List Vishes --*/
+
+/*-- Order --*/
+
+.return_processing_info {
+    padding-bottom: 30px;
+}
+
+.return_processing_info h3 {
+    padding: 5px 0;
+    font-size: 24px;
+    line-height: 34px;
+}
+
+.return_processing_info p {
+    font-size: 17px;
+    line-height: 150%;
+}
+
+.return_processing_table .table_row .cell:last-child {
+    padding-left: 15px;
+}
+
+/*-- /Order --*/
+
+/*-- Order Processing --*/
+
+.tree_cols_2 > div:nth-child(1),
+.tree_cols_2 > div:nth-child(2),
+.tree_cols_2 > div:nth-child(3) {
+    width: 100%;
+}
+
+/*-- /Order Processing --*/
+
+/*-- Password Reset --*/
+
+.password_form {
+    padding: 15px 15px 15px 15px;
+} 
+
+.password_form_title h3 {
+    font-size: 22px;
+}
+
+/*-- /Password Reset --*/
+
+/*-- Sales Rules --*/
+
+.article_two_cols p {
+    font-size: 14px;
+}
+
+.article_two_cols ul li {
+    font-size: 14px;
+}
+
+/*-- /Sales Rules --*/
+
+/*-- Position --*/
+
+.article_2_3 h2 {
+    font-size: 20px;
+}
+
+.article_2_3 ul li {
+    font-size: 14px;
+}
+
+/*-- /Position --*/
+
+/*-- Return Processing --*/
+
+.form_wrapp_2_3 .form_inner_wrapp {
+    padding: 10px 12px 7px 12px;
+}
+
+/*-- /Return Processing --*/
+
+/*-- Send review --*/
+
+.blue_tags_2_2 li {
+    -webkit-flex: none;
+    flex: none;
+}
+
+.form_wrapp_white {
+    padding: 0;
+}
+
+/*-- /Send review --*/
+
 /*-- Footer --*/
 
 .footer_row_2 {
@@ -1441,6 +1803,51 @@ h2 {
 	}
 
 	/*-- /Card --*/
+
+/*-- My List Vishes --*/
+
+	.vish_list_item > div:nth-child(5) {
+	    width: 100%;
+	}
+
+/*-- /My List Vishes --*/
+
+/*-- Order --*/
+
+.return_processing_table {
+	min-width: 550px;
+}
+
+.order_info h3 {
+    padding: 10px 0 2px 0;
+    font-size: 14px;
+}
+
+.order_info p {
+    padding: 2px 0;
+    font-size: 14px;
+}
+
+/*-- /Order --*/
+
+/*-- Sales --*/
+
+.sales_item h3 {
+    font-size: 25px;
+}
+
+.sales_item > div:nth-child(1) {
+    max-width: 350px;
+    width: 100%;
+    min-height: 225px;
+}
+
+.sales_item > div:nth-child(2) {
+    width: 100%;
+    padding-left: 0;
+}
+
+/*-- /Sales --*/
 
 }
 
@@ -1906,6 +2313,92 @@ h2 {
 
 /*-- /Bonuce --*/
 
+/*-- Caring Furniture --*/
+
+.article_2 p {
+    font-size: 14px;
+    line-height: 149%;
+}
+
+/*-- /Caring Furniture --*/
+
+/*-- Contacts --*/
+
+.contacts_templ {
+    padding: 5px 0;
+}
+
+.contacts_text_wrapp > div:nth-child(1) {
+    width: 100%;
+    padding: 10px 0;
+}
+
+.contacts_text_wrapp > div:nth-child(2) {
+    width: 100%;
+    padding: 10px 0;
+}
+
+/*-- /Contacts --*/
+
+/*-- My List Vishes --*/
+
+.vish_list_item .del_btn_3 {
+    top: 9px;
+    right: -3px;
+}
+
+.vish_list_item > div:nth-child(5) {
+	padding-top: 5px;
+	text-align: left;
+}
+
+/*-- /My List Vishes --*/
+
+/*-- Orders --*/
+
+.returning_sect {
+    padding: 30px 0 30px 0;
+}
+
+.returning_sect_inner h3 {
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.returning_sect_inner p {
+    font-size: 16px;
+}
+
+.h3_wrapp_two_cols > div:nth-child(2) {
+    padding-top: 17px;
+}
+
+/*-- /Orders --*/
+
+/*-- Password Reset --*/
+
+.submit_btn_two_cols > div:nth-child(odd),
+.submit_btn_two_cols > div:nth-child(even) {
+	width: 100%;
+    padding: 2px 0;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+	-webkit-justify-content: center;
+}
+
+/*-- /Password Reset --*/
+
+/*-- Sales Rules --*/
+
+.article_two_cols > .left_col,
+.article_two_cols > .right_col {
+    width: 100%;
+    padding: 20px 0;
+}
+
+/*-- /Sales Rules --*/
+
 /*-- Footer --*/
 
 .footer_top_row > .left {
@@ -1960,11 +2453,12 @@ h2 {
 }
 
 .good_thumb > div:nth-child(1) {
-    width: 190px;
+    width: 170px;
+    padding-right: 20px;
 }
 
 .good_thumb > div:nth-child(2) {
-    width: calc(100% - 190px);
+    width: calc(100% - 170px);
 }
 
 .good_img_box {
@@ -2129,9 +2623,70 @@ h2 {
 
 /*-- /Basket --*/
 
+/*-- My List Vishes --*/
+
+.vish_list_item > div:nth-child(2) {
+	text-align: left;
+}
+
+.vish_list_item > div:nth-child(3) {
+    width: calc(100% - 140px);
+    text-align: right;
+}
+
+.vish_list_item > div:nth-child(3) .count_box {
+	display: inline-flex;
+    display: -webkit-inline-flex;
+    margin: 0;
+}
+
+.vish_list_item  .price_box {
+    text-align: left;
+}
+
+/*-- /My List Vishes --*/
+
+/*-- Order --*/
+
+.return_processing_sect {
+    padding: 30px 0 30px 0;
+}
+
+.order_info > .left_col,
+.order_info > .right_col {
+    width: 100%;
+    padding: 10px 0;
+}
+
+/*-- /Order --*/
+
 }
 
 @media only screen and (max-width: 460px) {
+
+/*-- Orders --*/
+
+.h3_wrapp_two_cols {
+	flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+}
+
+.h3_wrapp_two_cols > div:nth-child(1) {
+	width: 100%;
+	padding: 0;
+}
+
+.h3_wrapp_two_cols > div:nth-child(2) {
+    width: 100%;
+    padding-left: 0;
+    padding-top: 0
+}
+
+.returning_sect_inner {
+    padding: 20px 0 0 0;
+}
+
+/*-- /Orders --*/
 
 /*-- Footer --*/
 
@@ -2175,11 +2730,11 @@ h2 {
 /*-- Basket --*/
 
 .basket_item_slider_wrapp > div:nth-child(1) {
-    width: 186px;
+    width: 160px;
 }
 
 .basket_item_slider_wrapp > div:nth-child(2) {
-    width: calc(100% - 186px);
+    width: calc(100% - 160px);
 }
 
 .basket_item_row > div:nth-child(2) {
@@ -2196,7 +2751,33 @@ h2 {
     padding-right: 20px;
 }
 
+.vish_img_box {
+    max-width: 150px;
+}
+
 /*-- /Basket --*/
+
+/*-- City Delivering --*/
+
+.city_form_wrapp {
+    margin: 30px auto;
+}
+
+.city_form {
+    padding: 43px 23px 15px 23px;
+}
+
+.city_form_title h3 .city {
+    font-size: 20px;
+}
+
+.cities_list li {
+    width: 100%;
+    padding: 0;
+    font-size: 14px;
+}
+
+/*-- /City Delivering --*/
 	
 }
 
@@ -2215,6 +2796,32 @@ p {
     width: calc(100% - 120px);
     margin-left: 60px;
 }
+
+/*-- My Account --*/
+
+.good_thumb > div:nth-child(1) {
+    width: 170px;
+    padding-right: 0;
+}
+
+.good_thumb > div:nth-child(2) {
+	width: 100%;
+}
+
+/*-- /My Account --*/
+
+/*-- My List Vishes --*/
+
+.btns_inlines > div {
+	width: 100%;
+}
+
+.vish_pill {
+	min-width: 100%;
+	width: 100%;
+}
+
+/*-- /My List Vishes --*/
 	
 }
 

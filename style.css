@@ -556,6 +556,11 @@ select {
     display: block;
 }
 
+.scroll_x {
+    overflow-y: hidden;
+    overflow-x: auto;
+}
+
 /*-------------------------------------------*/
 /* ----- HEADER ------ */
 /*-------------------------------------------*/
@@ -1562,10 +1567,6 @@ p.price_3 {
     font-size: 18px;
     line-height: 150%;
     color: #E16752;
-}
-
-.acc_thumb_2_footer {
-
 }
 
 .link_4_2 {
@@ -3797,7 +3798,7 @@ p.price_3 {
 }
 
 .range_slider_wrapp {
-    padding: 10px 0 10px 0;
+    padding: 10px 10px;
 }
 
 .range_slider_vals p {
@@ -5613,6 +5614,7 @@ div.rateit_2.svg div.rateit-preset {
 .returning_table {
     margin: 10px 0;
     border-top: 1px solid #C5C5C5;
+    min-width: 780px;
 }
 
 .returning_table .table_row {
@@ -7736,7 +7738,7 @@ div.rateit_2.svg div.rateit-preset {
     width: auto;
     height: auto;
     min-width: 100%;
-    min-height: 100px;
+    min-height: 100%;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -8303,6 +8305,7 @@ p.red {
     min-height: 40px;
     padding-left: 20px;
     padding-right: 20px;
+    text-align: center;
     font-family: 'HelveticaNeueCyr Roman';
     font-weight: normal;
     font-size: 14px;
@@ -8695,6 +8698,10 @@ p.red {
 
 /*-- Orders --*/
 
+.returning_table_2 {
+    min-width: 730px;
+}
+
 .returning_table_2 .table_row .cell:nth-child(1) {
     width: 15%;
 }
@@ -8961,6 +8968,8 @@ p.red {
 .blue_tags_inlines {
     display: flex;
     display: -webkit-flex;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
     margin: 0 -2px;
 }
 
